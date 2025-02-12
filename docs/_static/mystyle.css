@@ -1,0 +1,17 @@
+.bd-container{
+    
+    direction : rtl
+}
+
+
+.cell_output .output {
+    direction : ltr     
+}
+
+.bd-content div.cell_output{
+    direction : ltr 
+}
+
+div.cell_input{
+    direction : ltr 
+}
