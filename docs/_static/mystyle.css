@@ -1,17 +1,31 @@
 .bd-container{
     
-    direction : rtl
+    direction : rtl;
 }
 
-
-.cell_output .output {
-    direction : ltr     
+.cell.docutils.container {
+    direction: ltr; /* Override the direction for the code block container */
 }
 
-.bd-content div.cell_output{
-    direction : ltr 
+.cell.docutils.container * {
+    direction: ltr; /* Ensure all child elements inherit the ltr direction */
 }
 
-div.cell_input{
-    direction : ltr 
+/* Optional: Ensure text alignment is left */
+.cell.docutils.container,
+.cell.docutils.container * {
+    text-align: left;
 }
+
+.header-article-items__end{
+	direction : ltr;
+}
+
+.bd-footer-content {
+    direction: ltr; /* Override the direction to left-to-right */
+}
+
+.bd-footer-content * {
+    direction: ltr; /* Ensure all child elements inherit the ltr direction */
+}
+
