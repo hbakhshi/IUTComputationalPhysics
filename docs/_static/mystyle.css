@@ -29,19 +29,26 @@
     direction: ltr; /* Ensure all child elements inherit the ltr direction */
 }
 
-
 #pst-primary-sidebar-modal {
+  display: none; /* Hidden by default */
   position: fixed;
   top: 0;
-  right: 0; /* Adjusted for RTL layout */
-  width: 0; /* Adjust width as needed */
+  right: 0;
+  width: 0;
   height: 100%;
   margin: 0;
   padding: 0;
   border: none;
-  background-color: white; /* Set background color */
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Shadow on the left for RTL */
-  z-index: 1000; /* Ensure it appears above other content */
-  overflow-y: auto; /* Enable scrolling if content overflows */
-  visibility: hidden;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  overflow-y: auto;
+  transform: translateX(100%); /* Start off-screen for RTL */
+  transition: transform 0.3s ease-in-out;
 }
+
+#pst-primary-sidebar-modal.open {
+  display: block; /* Show the dialog */
+  transform: translateX(0); /* Slide in for RTL */
+}
+
