@@ -29,7 +29,7 @@
     direction: ltr; /* Ensure all child elements inherit the ltr direction */
 }
 
-#pst-primary-sidebar-modal {
+#pst-primary-sidebar-modal2 {
   display: none; /* Hidden by default */
   position: fixed;
   top: 0;
@@ -47,7 +47,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-#pst-primary-sidebar-modal.open {
+#pst-primary-sidebar-modal2.open {
   display: block; /* Show the dialog */
   transform: translateX(0); /* Slide in for RTL */
 }
