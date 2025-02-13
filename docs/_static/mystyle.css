@@ -34,7 +34,7 @@
   position: fixed;
   top: 0;
   right: 0; /* Adjusted for RTL layout */
-  width: 300px; /* Adjust width as needed */
+  width: 0; /* Adjust width as needed */
   height: 100%;
   margin: 0;
   padding: 0;
@@ -43,4 +43,5 @@
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Shadow on the left for RTL */
   z-index: 1000; /* Ensure it appears above other content */
   overflow-y: auto; /* Enable scrolling if content overflows */
+  visibility: hidden;
 }
