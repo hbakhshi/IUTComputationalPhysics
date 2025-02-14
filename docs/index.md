@@ -32,9 +32,19 @@ kernelspec:
   - توضیحات
 * - ۱
   - ۱۳ تا ۱۹ بهمن
-  - آشنایی با numpy
-  - شی‌گرایی: کلاس اعداد مختلط
+  - {doc}`01/SimpleNumpyExample`
+  - {doc}`01/ComplexNumberClass`
   - جلسات آموزش مقدمات پایتون
+* - ۲
+  - ۲۰ تا ۲۶ بهمن
+  - تعطیل
+  - تعطیل
+  - ...
+* - ۳
+  - ۲۷ بهمن تا ۳ اسفند
+  - {doc}`03/RandomNumbers`
+  - {doc}`03/2dRandomWalk`
+  - -
 ```
 +++
 

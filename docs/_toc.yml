@@ -11,6 +11,10 @@ parts:
   chapters:
   - file: 01/SimpleNumpyExample
   - file: 01/ComplexNumberClass
+- caption: اعداد تصادفی
+  chapters:
+  - file: 03/RandomNumbers
+  - file: 03/2dRandomWalk
 # chapters:
 # - file: markdown
 # - file: notebooks
