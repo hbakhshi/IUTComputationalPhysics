@@ -3,6 +3,14 @@
 
 format: jb-book
 root: index
+parts:
+- caption: نکات مهم
+  chapters:
+  - file: ImportantPoints
+- caption: برنامه‌نویسی پایتون
+  chapters:
+  - file: 01/SimpleNumpyExample
+  - file: 01/ComplexNumberClass
 # chapters:
 # - file: markdown
 # - file: notebooks
