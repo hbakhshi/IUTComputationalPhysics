@@ -336,3 +336,49 @@ man ls
 <code>Git</code>: یک سیستم کنترل نسخه توزیع‌شده است که به شما کمک می‌کند تغییرات کد خود را پیگیری کرده و با دیگران همکاری کنید.  
 این ابزار برای حفظ تاریخچه پروژه، امکان همکاری بین اعضای تیم و مدیریت نسخه‌های مختلف کد بسیار مهم است
 
+دستورات پایه‌ای Git که باید بدانید:
+
+
+<ul dir="rtl">
+  <li> <code>git init</code>: مخزن جدید Git را مقداردهی اولیه می‌کند.</li>
+  <li><code>git clone</code>: یک مخزن موجود را کلون می‌کند.  </li>
+    
+```{code-cell}  
+git clone https://github.com/user/repo.git  
+```
+    
+  <li><code>git status</code>: وضعیت دایرکتوری کاری را نمایش می‌دهد.  </li>
+
+  ```{code-cell}  
+  git status  
+  ```
+    
+  <li><code>git add</code>: فایل‌ها را به مرحله استیجینگ اضافه می‌کند.   </li>
+        
+  ```{code-cell}  
+  git add filename  
+  ```
+   
+  <li><code>git commit</code>: تغییرات را در مخزن ذخیره می‌کند.  </li>
+        
+  ```{code-cell}  
+  git commit -m "پیام کامیت"  
+  ```
+    
+    
+  <li><code>git push</code>: تغییرات را به مخزن راه دور ارسال می‌کند.  </li>
+        
+  ```{code-cell}  
+  git push origin branchname  
+  ```
+    
+    
+    
+  <li><code>git pull</code>: تغییرات را از مخزن راه دور دریافت می‌کند.  </li>
+        
+  ```{code-cell}  
+   git pull origin branchname  
+  ```
+</ul>
+
+
