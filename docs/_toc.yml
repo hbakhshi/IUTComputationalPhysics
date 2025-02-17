@@ -6,7 +6,7 @@ root: index
 parts:
 - caption: نکات مهم
   chapters:
-  - file: ImportantPoints
+  - file: ImportantPoints.ipynb
 - caption: برنامه‌نویسی پایتون
   chapters:
   - file: 01/SimpleNumpyExample
