@@ -339,7 +339,7 @@ man ls
 دستورات پایه‌ای Git که باید بدانید:
 
 
-<ul dir="rtl">
+
   <li> <code>git init</code>: مخزن جدید Git را مقداردهی اولیه می‌کند.</li>
   <li><code>git clone</code>: یک مخزن موجود را کلون می‌کند.  </li>
     
@@ -362,7 +362,7 @@ git clone https://github.com/user/repo.git
   <li><code>git commit</code>: تغییرات را در مخزن ذخیره می‌کند.  </li>
         
   ```{code-cell}  
-  git commit -m "پیام کامیت"  
+  git commit -m "Commit massage "  
   ```
     
     
@@ -380,5 +380,12 @@ git clone https://github.com/user/repo.git
    git pull origin branchname  
   ```
 </ul>
+# شاخه بندی و یکی کردن (Branching and Merging)
 
+گیت به شما این امکان را می‌دهد که شاخه‌هایی ایجاد کنید تا به طور مستقل روی ویژگی‌ها یا اصلاحات مختلف کار کنید. در اینجا برخی از دستورات مربوط به شاخه بندی و ادغام آورده شده است:
+- <code>git branch</code>
+
+```{code-cell}
+git branch
+```
 
