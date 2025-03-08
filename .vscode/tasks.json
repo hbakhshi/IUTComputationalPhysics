@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Jupyter Book",
+        "type": "shell",
+        "command": "jupyter-book build docs",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Clean Jupyter Book",
+        "type": "shell",
+        "command": "jupyter-book clean docs",
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
