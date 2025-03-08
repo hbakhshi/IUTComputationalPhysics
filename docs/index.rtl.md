@@ -44,12 +44,12 @@ kernelspec:
   - ۲۷ بهمن تا ۳ اسفند
   - {doc}`03/RandomNumbers`
   - {doc}`03/RandomWalk`
-  - ---
+  - ...
 * - ۴
   - ۴ تا ۱۰ اسفند
   - {doc}`04/2dRandomWalk`
   - {doc}`04/Fitting`
-  - ---
+  - ...
 * - ۵
   - ۱۱ تا ۱۷ اسفند
   -  ادامه ی برازش
