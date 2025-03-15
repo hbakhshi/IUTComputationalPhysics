@@ -21,10 +21,10 @@ parts:
   - file: 04/Fitting
 - caption: تبدیل فوریه
   chapters:
-  -file: 05/FourierTransofrm
+  - file: 05/FourierTransofrm
 - caption: مدل آیزینگ
   chapters:
-  -file: 06/IsingModel
+  - file: 06/IsingModel
 # chapters:
 # - file: markdown
 # - file: notebooks
