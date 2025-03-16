@@ -9,7 +9,7 @@ myst_dmath_double_inline: true # Enable double-dollar math delimiters
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: auto
+  execute_notebooks: 'off'
 
 # Define the name of the latex output file for PDF builds
 latex:
