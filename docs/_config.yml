@@ -5,10 +5,11 @@ title: Computational physics - Isfahan university of technology
 author: Hamed Bakhshian
 logo: logo.jpg
 
+myst_dmath_double_inline: true # Enable double-dollar math delimiters
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: 'off'
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -38,3 +39,8 @@ parse:
     - deflist
     - amsmath
     - dollarmath
+
+sphinx:
+  config:
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
