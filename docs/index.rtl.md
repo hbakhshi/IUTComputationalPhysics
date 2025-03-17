@@ -48,16 +48,16 @@ kernelspec:
 * - ۴
   - ۴ تا ۱۰ اسفند
   - {doc}`04/2dRandomWalk`
-  - {doc}`04/Fitting`
+  - {doc}`04/Chi2AndFit`
   - ...
 * - ۵
   - ۱۱ تا ۱۷ اسفند
   -  ادامه ی برازش
-  - {doc}`05/FourierTransform`
+  - {doc}`05/FourierTransofrm`
   - ...
 * - ۶
   - ۱۸ تا ۲۴ اسفند
-  - {docs}`06/IsingModel`
+  - {doc}`06/IsingModel`
   - ادامه‌ی مدل آیزینگ
   - ...
 * - تعطیلات عید

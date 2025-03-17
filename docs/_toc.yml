@@ -18,7 +18,7 @@ parts:
   - file: 04/2dRandomWalk
 - caption: برازش و فیت کردن
   chapters:
-  - file: 04/Fitting
+  - file: 04/Chi2AndFit
 - caption: تبدیل فوریه
   chapters:
   - file: 05/FourierTransofrm
