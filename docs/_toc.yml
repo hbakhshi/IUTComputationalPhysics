@@ -4,28 +4,20 @@
 format: jb-book
 root: index.rtl
 parts:
-- caption: نکات مهم
+- caption: مقدمه
   chapters:
-  - file: ImportantPoints.ipynb
-- caption: برنامه‌نویسی پایتون
+  - file: 01_Basics/ImportantPoints.ipynb
+  - file: 01_Basics/SimpleNumpyExample
+  - file: 01_Basics/ComplexNumberClass
+- caption: مباحثی در فیزیک محاسباتی
   chapters:
-  - file: 01/SimpleNumpyExample
-  - file: 01/ComplexNumberClass
-- caption: اعداد تصادفی
+  - file: 02_Physics/03/RandomNumbers
+  - file: 02_Physics/03/RandomWalk
+  - file: 02_Physics/04/2dRandomWalk
+  - file: 02_Physics/04/Chi2AndFit
+  - file: 02_Physics/05/FourierTransofrm
+  - file: 02_Physics/06/IsingModel
+- caption: شبکه‌های عصبی
   chapters:
-  - file: 03/RandomNumbers
-  - file: 03/RandomWalk
-  - file: 04/2dRandomWalk
-- caption: برازش و فیت کردن
-  chapters:
-  - file: 04/Chi2AndFit
-- caption: تبدیل فوریه
-  chapters:
-  - file: 05/FourierTransofrm
-- caption: مدل آیزینگ
-  chapters:
-  - file: 06/IsingModel
-# chapters:
-# - file: markdown
-# - file: notebooks
-# - file: markdown-notebooks
+  - file: 03_NN/01_Introduction
+

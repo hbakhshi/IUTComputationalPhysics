@@ -32,8 +32,8 @@ kernelspec:
   - توضیحات
 * - ۱
   - ۱۳ تا ۱۹ بهمن
-  - {doc}`01/SimpleNumpyExample`
-  - {doc}`01/ComplexNumberClass`
+  - {doc}`01_Basics/SimpleNumpyExample`
+  - {doc}`01_Basics/ComplexNumberClass`
   - جلسات آموزش مقدمات پایتون
 * - ۲
   - ۲۰ تا ۲۶ بهمن
@@ -42,22 +42,22 @@ kernelspec:
   - ...
 * - ۳
   - ۲۷ بهمن تا ۳ اسفند
-  - {doc}`03/RandomNumbers`
-  - {doc}`03/RandomWalk`
+  - {doc}`02_Physics/03/RandomNumbers`
+  - {doc}`02_Physics/03/RandomWalk`
   - ...
 * - ۴
   - ۴ تا ۱۰ اسفند
-  - {doc}`04/2dRandomWalk`
-  - {doc}`04/Chi2AndFit`
+  - {doc}`02_Physics/04/2dRandomWalk`
+  - {doc}`02_Physics/04/Chi2AndFit`
   - ...
 * - ۵
   - ۱۱ تا ۱۷ اسفند
   -  ادامه ی برازش
-  - {doc}`05/FourierTransofrm`
+  - {doc}`02_Physics/05/FourierTransofrm`
   - ...
 * - ۶
   - ۱۸ تا ۲۴ اسفند
-  - {doc}`06/IsingModel`
+  - {doc}`02_Physics/06/IsingModel`
   - ادامه‌ی مدل آیزینگ
   - ...
 * - تعطیلات عید
@@ -68,13 +68,13 @@ kernelspec:
 * - ۷
   - ۱۶ تا ۲۲ فروردین
   - حل تمرین
-  - آزمون میان ترم
+  - حل تمرین
   - ...
 * - ۸
   - ۲۳ تا ۲۹ فروردین
-  - شبکه‌های عصبی
+  - {doc}`03_NN/01_Introduction`
   - پیاده سازی یک شبکه عصبی ساده
-  - ...
+  - ۲۷ فروردین : آزمون میان ترم
 * - ۹
   - ۳۰ فروردین تا ۵ اردیبهشت
   - ...

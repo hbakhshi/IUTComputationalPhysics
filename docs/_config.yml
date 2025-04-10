@@ -3,7 +3,7 @@
 
 title: Computational physics - Isfahan university of technology 
 author: Hamed Bakhshian
-logo: logo.jpg
+logo: _static/images/logo.jpg
 
 myst_dmath_double_inline: true # Enable double-dollar math delimiters
 # Force re-execution of notebooks on each build.
