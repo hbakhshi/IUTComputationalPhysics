@@ -52,3 +52,6 @@
   transform: translateX(0); /* Slide in for RTL */
 }
 
+
+img[alt=Cats1Image] { width: 400px; }
+
