@@ -20,4 +20,5 @@ parts:
 - caption: شبکه‌های عصبی
   chapters:
   - file: 03_NN/01_Introduction
+  - file: 03_NN/02_NNMNIST
 
