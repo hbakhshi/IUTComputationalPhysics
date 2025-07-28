@@ -21,4 +21,11 @@ parts:
   chapters:
   - file: 03_NN/01_Introduction
   - file: 03_NN/02_NNMNIST
+  - file: 03_NN/03_MNISTPYTORCH
+  - file: 03_NN/04_IntroToGraphNN
+  - file: 03_NN/05_PINN_S1
+  - file: 03_NN/06_PINN_S2
+  - file: 03_NN/07_DeepLearningInPhysics
+  - file: 03_NN/08_ReadData
+
 
