@@ -27,5 +27,5 @@ parts:
   - file: 03_NN/06_PINN_S2
   - file: 03_NN/07_DeepLearningInPhysics
   - file: 03_NN/08_ReadData
-  - file: 03_NN/09_Jet_CNN
+  - file: 03_NN/Jet_CNN
 
